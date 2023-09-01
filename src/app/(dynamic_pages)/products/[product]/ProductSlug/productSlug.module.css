@@ -1,0 +1,22 @@
+.mmg::-webkit-scrollbar {
+  width: 2px !important;
+}
+
+.mmg::-webkit-scrollbar-track {
+  background: #333;
+  width: 2px !important;
+}
+
+.mmg::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(9, 254, 123, 0.644),
+    rgb(97, 171, 144)
+  );
+  border-radius: 14px;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  -ms-border-radius: 14px;
+  -o-border-radius: 14px;
+  width: 2px !important;
+}

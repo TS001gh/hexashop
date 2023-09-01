@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import React, { useEffect, useRef, useState } from 'react';
+import styles from './productSlug.module.css';
 
 function ProductSlug({ product }) {
   const image = useRef();
@@ -54,7 +55,7 @@ function ProductSlug({ product }) {
         />
       </div>
       <div
-        className="images flex flex-1 gap-8 mt-12 justify-center items-center overflow-hidden"
+        className={`images flex flex-1 gap-8 mt-12 justify-center items-center lg:overflow-hidden overflow-x-scroll ${styles.mmg}`}
         ref={image}
       >
         {product.images.map((image, index) => {
