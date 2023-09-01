@@ -1,0 +1,9 @@
+.text_color {
+  background-image: linear-gradient(
+    to right,
+    rgba(9, 254, 123, 0.644),
+    rgb(97, 171, 144)
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

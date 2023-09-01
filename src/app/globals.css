@@ -2,26 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.theme {
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem;
+  padding-inline: 3rem;
+  margin-inline: auto;
+  width: 80%;
+  gap: 10rem;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.theme_trans {
+  transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -ms-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.dark {
+  --bgcolor: #121619 !important ;
+  --textcolor: #fff !important ;
+}
+
+.light {
+  --bgcolor: #f5f7fa !important ;
+  --textcolor: black !important ;
+}
+
+.header {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(9, 254, 123, 0.644),
+    rgb(97, 171, 144)
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
