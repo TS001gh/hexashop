@@ -11,7 +11,7 @@ export default function Home() {
           perferendis? Ad atque sunt nihil, minima cupiditate ducimus a.
         </p>
       </div>
-      <div className="image lg:flex-1 mt-12">
+      <div className="image lg:flex-1 mt-12 justify-center items-center">
         <Image
           src={'heroImage.svg'}
           alt="Shop Image"
