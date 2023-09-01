@@ -12,8 +12,8 @@ function Contact() {
         height={400}
         className=" translate-y-[15%]"
       />
-      <div className="conatct-side flex flex-col gap-12 w-[50%]">
-        <h1 className=" text-5xl text-center uppercase header font-bold">
+      <div className="conatct-side flex flex-col gap-12 lg:w-[50%] w-[100%]">
+        <h1 className=" lg:text-5xl text-center uppercase header font-bold text-2xl">
           Contact us
         </h1>
         <p className="text-center">
