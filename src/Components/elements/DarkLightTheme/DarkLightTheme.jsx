@@ -10,7 +10,7 @@ function DarkLightTheme() {
 
   return (
     <div
-      className={`flex justify-center items-center ${styles.themesCon} mr-6 mt-5 lg:mt-0`}
+      className={`flex justify-center items-center ${styles.themesCon} mr-6`}
     >
       <div
         className={`text-xl ml-3 transition-all ease-in-out duration-500 cursor-pointer drop-shadow-3xl-dark ${
