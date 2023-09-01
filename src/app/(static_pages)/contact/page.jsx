@@ -4,7 +4,7 @@ import styles from './contact.module.css';
 
 function Contact() {
   return (
-    <div className="flex gap-14 justify-between items-center">
+    <div className="flex lg:gap-14 lg:justify-between lg:flex-row flex-col gap-48 items-center">
       <Image
         src={'contact.svg'}
         alt={'contact image'}

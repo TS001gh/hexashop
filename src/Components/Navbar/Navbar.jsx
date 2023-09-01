@@ -4,7 +4,7 @@ import NavEelements from '../elements/NavEelements/NavEelements';
 
 function Navbar() {
   return (
-    <div className="flex justify-between items-center">
+    <div className="flex justify-between items-center lg:flex-row flex-col gap-9">
       <Logo />
       <NavEelements />
     </div>
